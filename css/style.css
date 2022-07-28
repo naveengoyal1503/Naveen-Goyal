@@ -1003,9 +1003,32 @@ Contact section start
     transition: all 0.3s ease;
 }
 
-.contact-info-item .social-links a:hover {
-    color: var(--white);
-    background-color: var(--main-color);
+/* Hover icon */
+
+.icon {
+    position: relative;
+    transition: .8s;
+    z-index: 3;
+  }
+
+a:hover .icon{
+    transform: rotateY(360deg); 
+}
+.contact-info-item .social-links .mail:hover {
+    color: white;
+    transform: scale(1.2);
+    background-color: #dd4b39;
+}
+
+.contact-info-item .social-links .linkedin:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: #0077b5;
+}
+.contact-info-item .social-links .github:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: #040204;
 }
 
 /* -----------------------
