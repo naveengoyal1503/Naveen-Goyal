@@ -26,7 +26,7 @@
     --light-green: #81F499;
     --yellow-green: #DBF4A7;
     --carolina-blue: #02A9EA;
-    --green: #14ff47;
+    --green:  ;
 }
 
 /* Variables */
@@ -48,10 +48,7 @@ Global section start
 
 body {
     min-height: 100vh;
-    /* background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light)); */
     background-color: var(--background-color);
-    /* background: linear-gradient(to bottom right, var(--yellow), var(--red), var(--light-blue), var(--red), var(--purple), var(--purple),var(--light-blue),var(--light-blue),var(--purple)); */
-    /* background-size: 1800% 2000%; */
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -60,7 +57,6 @@ body {
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
-    /* animation: gradient 12s ease infinite; */
     padding: 35px 15px;
 }
 
@@ -91,10 +87,6 @@ body::before {
 }
 
 .main {
-    /* min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
     max-width: 1200px;
     margin: auto;
     transition: all 0.5s ease-in-out;
@@ -396,6 +388,54 @@ Global section end
     width: 50px;
     background-color: var(--orange);
     left: -30px;
+    top: 80%;
+    opacity: 0.6;
+}
+.bg-circles .circle-5{
+    height: 50px;
+    width: 50px;
+    background-color: var(--green);
+    left: 490px;
+    top: 80%;
+    opacity: 0.6;
+}
+.bg-circles .circle-6{
+    height: 50px;
+    width: 50px;
+    background-color: var(--red);
+    left: 750px;
+    top: 80%;
+    opacity: 0.6;
+}
+.bg-circles .circle-7{
+    height: 50px;
+    width: 50px;
+    background-color: var(--carolina-blue);
+    left: 750px;
+    top: 20%;
+    opacity: 0.6;
+}
+.bg-circles .circle-8{
+    height: 50px;
+    width: 50px;
+    background-color: var(--purple);
+    left: 550px;
+    top: 60%;
+    opacity: 0.6;
+}
+.bg-circles .circle-9{
+    height: 50px;
+    width: 50px;
+    background-color: var(--yellow-green);
+    left: 250px;
+    top: 30%;
+    opacity: 0.6;
+}
+.bg-circles .circle-10{
+    height: 50px;
+    width: 50px;
+    background-color: var(--light-blue);
+    left: 1050px;
     top: 80%;
     opacity: 0.6;
 }
